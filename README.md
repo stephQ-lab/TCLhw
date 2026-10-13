@@ -1,1 +1,20 @@
 # TCLhw
+Tcl Studio
+
+打开 dist/index.html 即可阅读课程和使用交互练习。
+使用本地 HTTP 服务时，在 dist 目录执行：
+python -m http.server 4173 --bind 127.0.0.1
+浏览器访问 http://127.0.0.1:4173
+
+功能：40 周课程导读、搜索、阶段筛选、章节阅读、示例下载、8 道交互练习、当前浏览器学习进度保存。
+课程依据 SJTU-YONGFU-RESEARCH-GRP/tcl-language 的 40 周计划改编。
+来源：https://github.com/SJTU-YONGFU-RESEARCH-GRP/tcl-language
+课程许可：CC BY 4.0，https://creativecommons.org/licenses/by/4.0/
+本站重新编写导读、教学示例和交互练习。
+
+验证：前 20 周示例使用真实 tclsh 运行，输出与页面内容一致。
+浏览器功能检查包含课程筛选、搜索、章节、进度持久保存、下载、全部练习与 1440、1024、768、390、360 像素页面宽度。
+第 21 周起需要 Calibre DESIGNrev；当前环境没有 calibredrv，相关示例尚未进行运行验证。
+第 28–40 周提供命令索引及练习要求，具体参数需要查看当前 Calibre 版本的手册与 Usage。
+字体使用 Google Fonts；无法连接时使用系统字体。
+本地版本已完成。线上发布需要批准向 Sites 远程仓库上传网页文件。
